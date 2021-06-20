@@ -25,8 +25,8 @@ tasks:
       use_ssl: false
       verify_cert: false
       username: admin
-      password: 123456
+      password: aaaaaaaa
       maxupspeed: 25000
 EOF
-flexget web passwd "Aaa123456"
+flexget web passwd "Aaa123456flexget"
 flexget daemon start
