@@ -25,7 +25,7 @@ tasks:
       use_ssl: false
       verify_cert: false
       username: admin
-      password: $1
+      password: 123456
       maxupspeed: 25000
 EOF
 flexget web passwd "Aaa123456"
