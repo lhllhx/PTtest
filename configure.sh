@@ -1,8 +1,7 @@
 mkdir .flexget
-touch /root/.flexget/config.yml
-chmod +x /root/.flexget/start.sh
+touch /.flexget/config.yml
 
-cat << EOF >>/root/.flexget/config.yml
+cat << EOF >>/.flexget/config.yml
 web_server:
   bind: 0.0.0.0
   port: 443 #web-ui的监听端口
