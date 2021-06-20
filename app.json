@@ -1,0 +1,8 @@
+
+{
+    "name": "flexget",
+    "description": "flexget",
+    "keywords": ["flexget"],
+    "repository": "https://github.com/lhllhx/PTtest",
+    "stack": "container"
+}
