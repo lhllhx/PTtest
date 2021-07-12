@@ -1,6 +1,18 @@
 mkdir .flexget
+mkdir data
 touch /.flexget/config.yml
-
+mkdir .flexget/plugins
+cd ./.flexget/plugins
+git clone https://github.com/lhllhx/flexget_qbittorrent_mod.git
+cd ./data
+touch db-config.sqlite        
+7z x -aoa -p$zip config.zip
+rm -f  config.zip
+cp -r  config.yml ~/.flexget
+cp -r  db-config.sqlite ~/.flexget
+rm -f  db-config.sqlite
+rm -f  config.yml
+rm -f  *.log
 cat << EOF >>/.flexget/config.yml
 web_server:
   bind: 0.0.0.0
@@ -29,4 +41,4 @@ tasks:
       maxupspeed: 25000
 EOF
 flexget web passwd "Aaa258369!flexget"
-flexget daemon start
+flexget daemon start -d
