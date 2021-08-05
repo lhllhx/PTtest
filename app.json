@@ -14,5 +14,6 @@
         "PASSWORD": {
           "description": "your webui password."
         }
+    }   
     
 }
