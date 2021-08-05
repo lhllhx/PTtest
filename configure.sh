@@ -19,4 +19,4 @@ sed -i "s/waitforenv/${PORT}/g" config.yml
 cat config.yml
 cd ~/
 flexget web passwd "${PASSWORD}"
-flexget daemon start -d
+flexget daemon start 
