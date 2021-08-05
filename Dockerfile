@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM debian:buster
 
 ADD configure.sh /configure.sh
 
