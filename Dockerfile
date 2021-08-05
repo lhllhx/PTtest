@@ -6,7 +6,7 @@ RUN apt-get update \
  && timedatectl set-timezone "Asia/Shanghai" \
  && apt-get -y install python3-pip \
  && chmod +x /configure.sh \
- && wget --no-check-certificate https://github.com/kbnq/PT_signin/blob/main/requirements.txt \
+ && wget --no-check-certificate https://github.com/lhllhx/PTtest/raw/main/requirements.txt \
  && python3 -m pip install --upgrade pip \
  && pip3 install -r requirements.txt
  
