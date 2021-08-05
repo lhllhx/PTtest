@@ -1,4 +1,4 @@
-FROM debian:buster
+FROM ubuntu:20.10
 
 ADD configure.sh /configure.sh
 
