@@ -1,3 +1,4 @@
+date
 mkdir .flexget
 mkdir data
 mkdir .flexget/plugins
@@ -12,5 +13,8 @@ cp -r  ./db-config.sqlite ~/.flexget
 rm -f  db-config.sqlite
 rm -f  config.yml
 rm -f  *.log
+cd ~/.flexget
+sed -i "s/waitforenv/${PORT}/g" config.yml
+cat config.yml
 flexget web passwd "${PASSWORD}"
 flexget daemon start -d
