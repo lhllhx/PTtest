@@ -3,7 +3,6 @@ FROM ubuntu
 ADD configure.sh /configure.sh
 
 RUN apt-get update \
- && cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime \
  && data \
  && apt-get -y install python3-pip \
  && chmod +x /configure.sh \
