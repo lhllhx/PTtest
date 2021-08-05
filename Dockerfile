@@ -3,7 +3,8 @@ FROM ubuntu
 ADD configure.sh /configure.sh
 
 RUN apt-get update \
- && timedatectl set-timezone "Asia/Shanghai" \
+ && cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime \
+ && data \
  && apt-get -y install python3-pip \
  && chmod +x /configure.sh \
  && wget --no-check-certificate https://github.com/lhllhx/PTtest/raw/main/requirements.txt \
