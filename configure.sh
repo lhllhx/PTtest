@@ -3,7 +3,7 @@ cd ~/
 mkdir .flexget
 mkdir data
 mkdir .flexget/plugins
-git clone https://github.com/lhllhx/flexget_qbittorrent_mod.git ~/.flexget/plugins
+#git clone https://github.com/lhllhx/flexget_qbittorrent_mod.git ~/.flexget/plugins
 cd ./.flexget
 touch /.flexget/config.yml
 touch /.flexget/db-config.sqlite 
