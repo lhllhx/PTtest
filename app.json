@@ -10,7 +10,7 @@
         },
         "DATE": {
           "description": "your github data address."
-        }
+        },
         "PASSWORD": {
           "description": "your webui password."
         }
