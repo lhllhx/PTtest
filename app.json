@@ -12,7 +12,7 @@
           "description": "your github data address."
         }
         "PASSWORD": {
-          "description": "your github data address."
+          "description": "your webui password."
         }
     
 }
