@@ -1,8 +1,15 @@
-
 {
-    "name": "flexget",
-    "description": "flexget",
-    "keywords": ["flexget"],
+    "name": "PTsignin",
+    "description": "Auto sign in your Pt sites",
+    "keywords": ["PT"],
     "repository": "https://github.com/lhllhx/PTtest",
-    "stack": "container"
+    "stack": "container",
+    "env": {
+        "GITHUB_TOKEN": {
+          "description": "your github token."        
+        },
+        "DATE": {
+          "description": "your github data address.",
+        }
+    
 }
