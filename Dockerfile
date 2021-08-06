@@ -1,6 +1,7 @@
 FROM ubuntu:20.10
 
 ADD configure.sh /configure.sh
+ADD upload.sh /upload.sh
 
 RUN apt-get update \
  && date \
