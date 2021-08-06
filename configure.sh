@@ -1,5 +1,7 @@
 date
 cd ~/
+pwd
+ls -a
 mkdir .flexget
 mkdir data
 mkdir .flexget/plugins
