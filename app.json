@@ -13,9 +13,6 @@
         },
         "PASSWORD": {
           "description": "your webui password."
-        },
-        "TZ": {
-          "value": "Asia/Shanghai"
         }
     }   
     
